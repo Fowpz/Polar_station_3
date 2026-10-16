@@ -1,0 +1,30 @@
+{
+ "repeat_report_and_recent": [
+  {
+   "iter": 500,
+   "fds": 0,
+   "py_mem_kb": 6.1767578125,
+   "objects": -136
+  },
+  {
+   "iter": 1000,
+   "fds": 0,
+   "py_mem_kb": 15.068359375,
+   "objects": -54
+  },
+  {
+   "iter": 2000,
+   "fds": 0,
+   "py_mem_kb": 12.91015625,
+   "objects": -89
+  }
+ ],
+ "audit_rows_added_by_2050_views": null,
+ "open_corrupted_db_300x": {
+  "errors": 300,
+  "fd_growth": 0
+ },
+ "open_corrupted_db_300x_exceptions_kept": {
+  "fd_growth": 0
+ }
+}

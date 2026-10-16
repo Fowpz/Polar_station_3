@@ -1,0 +1,404 @@
+{
+ "S1 Сводный отчёт за период": {
+  "1000": {
+   "time": {
+    "min": 0.4214189999629525,
+    "median": 0.5252390000123341,
+    "runs": 7
+   },
+   "profile": {
+    "total_calls": 717,
+    "total_ms": 0.8708100000000003,
+    "top5": [
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 5,
+      "tottime_ms": 0.25323100000000004,
+      "cumtime_ms": 0.25323100000000004
+     },
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 10,
+      "tottime_ms": 0.08635600000000002,
+      "cumtime_ms": 0.16859700000000002
+     },
+     {
+      "func": "validation.py:63(parse_enum)",
+      "calls": 12,
+      "tottime_ms": 0.054759,
+      "cumtime_ms": 0.11266100000000001
+     },
+     {
+      "func": "services.py:395(build)",
+      "calls": 1,
+      "tottime_ms": 0.051193,
+      "cumtime_ms": 0.855346
+     },
+     {
+      "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+      "calls": 5,
+      "tottime_ms": 0.044737,
+      "cumtime_ms": 0.044737
+     }
+    ]
+   },
+   "peak_mb": 0.012873
+  },
+  "10000": {
+   "time": {
+    "min": 1.04916099996899,
+    "median": 1.5682169999990947,
+    "runs": 7
+   },
+   "profile": {
+    "total_calls": 717,
+    "total_ms": 2.2506440000000003,
+    "top5": [
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 5,
+      "tottime_ms": 1.243935,
+      "cumtime_ms": 1.243935
+     },
+     {
+      "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+      "calls": 5,
+      "tottime_ms": 0.23969400000000002,
+      "cumtime_ms": 0.23969400000000002
+     },
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 10,
+      "tottime_ms": 0.11955700000000001,
+      "cumtime_ms": 0.232689
+     },
+     {
+      "func": "validation.py:63(parse_enum)",
+      "calls": 12,
+      "tottime_ms": 0.071386,
+      "cumtime_ms": 0.158814
+     },
+     {
+      "func": "services.py:395(build)",
+      "calls": 1,
+      "tottime_ms": 0.06292900000000001,
+      "cumtime_ms": 2.231201
+     }
+    ]
+   },
+   "peak_mb": 0.012896
+  },
+  "50000": {
+   "time": {
+    "min": 4.741523000006964,
+    "median": 4.743405999988681,
+    "runs": 3
+   },
+   "profile": {
+    "total_calls": 717,
+    "total_ms": 5.5092300000000005,
+    "top5": [
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 5,
+      "tottime_ms": 4.117052,
+      "cumtime_ms": 4.117052
+     },
+     {
+      "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+      "calls": 5,
+      "tottime_ms": 0.6491370000000001,
+      "cumtime_ms": 0.6491370000000001
+     },
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 10,
+      "tottime_ms": 0.107584,
+      "cumtime_ms": 0.213536
+     },
+     {
+      "func": "services.py:395(build)",
+      "calls": 1,
+      "tottime_ms": 0.075783,
+      "cumtime_ms": 5.4887060000000005
+     },
+     {
+      "func": "validation.py:63(parse_enum)",
+      "calls": 12,
+      "tottime_ms": 0.057855000000000004,
+      "cumtime_ms": 0.129996
+     }
+    ]
+   },
+   "peak_mb": 0.012848
+  }
+ },
+ "S2 Последние наблюдения + погода для ТО": {
+  "1000": {
+   "time": {
+    "min": 1.2316230000806172,
+    "median": 1.6370199999755641,
+    "runs": 15
+   },
+   "profile": {
+    "total_calls": 96,
+    "total_ms": 1.395456,
+    "top5": [
+     {
+      "func": "~:0(<method 'commit' of 'sqlite3.Connection' objects>)",
+      "calls": 1,
+      "tottime_ms": 0.8808050000000001,
+      "cumtime_ms": 0.8808050000000001
+     },
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 4,
+      "tottime_ms": 0.18152900000000002,
+      "cumtime_ms": 0.18152900000000002
+     },
+     {
+      "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+      "calls": 1,
+      "tottime_ms": 0.09848300000000001,
+      "cumtime_ms": 0.09848300000000001
+     },
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 2,
+      "tottime_ms": 0.040283,
+      "cumtime_ms": 0.07467
+     },
+     {
+      "func": "services.py:312(maintenance_conditions)",
+      "calls": 1,
+      "tottime_ms": 0.028055,
+      "cumtime_ms": 0.178094
+     }
+    ]
+   },
+   "peak_mb": 0.030513
+  },
+  "10000": {
+   "time": {
+    "min": 1.5734940000129427,
+    "median": 1.9534719999683148,
+    "runs": 15
+   },
+   "profile": {
+    "total_calls": 97,
+    "total_ms": 1.584263,
+    "top5": [
+     {
+      "func": "~:0(<method 'commit' of 'sqlite3.Connection' objects>)",
+      "calls": 1,
+      "tottime_ms": 1.012401,
+      "cumtime_ms": 1.012401
+     },
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 4,
+      "tottime_ms": 0.232983,
+      "cumtime_ms": 0.232983
+     },
+     {
+      "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+      "calls": 1,
+      "tottime_ms": 0.116054,
+      "cumtime_ms": 0.116054
+     },
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 2,
+      "tottime_ms": 0.036543,
+      "cumtime_ms": 0.070758
+     },
+     {
+      "func": "services.py:312(maintenance_conditions)",
+      "calls": 1,
+      "tottime_ms": 0.019021,
+      "cumtime_ms": 0.211368
+     }
+    ]
+   },
+   "peak_mb": 0.031127
+  },
+  "50000": {
+   "time": {
+    "min": 1.7657270000199787,
+    "median": 2.124298000012459,
+    "runs": 7
+   },
+   "profile": {
+    "total_calls": 98,
+    "total_ms": 1.8654880000000003,
+    "top5": [
+     {
+      "func": "~:0(<method 'commit' of 'sqlite3.Connection' objects>)",
+      "calls": 1,
+      "tottime_ms": 1.061236,
+      "cumtime_ms": 1.061236
+     },
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 4,
+      "tottime_ms": 0.278669,
+      "cumtime_ms": 0.278669
+     },
+     {
+      "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+      "calls": 1,
+      "tottime_ms": 0.21704700000000002,
+      "cumtime_ms": 0.21704700000000002
+     },
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 2,
+      "tottime_ms": 0.048624,
+      "cumtime_ms": 0.098245
+     },
+     {
+      "func": "services.py:312(maintenance_conditions)",
+      "calls": 1,
+      "tottime_ms": 0.025255,
+      "cumtime_ms": 0.225963
+     }
+    ]
+   },
+   "peak_mb": 0.031086
+  }
+ },
+ "S3 Массовое внесение измерений": {
+  "1000": {
+   "time": {
+    "min": 27.435313000069073,
+    "median": 27.435313000069073,
+    "runs": 1
+   },
+   "profile": {
+    "total_calls": 101353,
+    "total_ms": 74.24601100000001,
+    "top5": [
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 1015,
+      "tottime_ms": 7.491145,
+      "cumtime_ms": 14.276721
+     },
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 1014,
+      "tottime_ms": 7.277410000000001,
+      "cumtime_ms": 7.277410000000001
+     },
+     {
+      "func": "services.py:131(_check)",
+      "calls": 1000,
+      "tottime_ms": 4.703756,
+      "cumtime_ms": 31.965528
+     },
+     {
+      "func": "~:0(<method 'strftime' of 'datetime.date' objects>)",
+      "calls": 2135,
+      "tottime_ms": 4.560935000000001,
+      "cumtime_ms": 4.560935000000001
+     },
+     {
+      "func": "gen_data.py:28(measurement_rows)",
+      "calls": 1135,
+      "tottime_ms": 3.822235,
+      "cumtime_ms": 19.796212
+     }
+    ]
+   },
+   "peak_mb": 0.278243
+  },
+  "10000": {
+   "time": {
+    "min": 302.73095100005776,
+    "median": 302.73095100005776,
+    "runs": 1
+   },
+   "profile": {
+    "total_calls": 1006124,
+    "total_ms": 707.761428,
+    "top5": [
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 10015,
+      "tottime_ms": 76.92349200000001,
+      "cumtime_ms": 143.16169100000002
+     },
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 10014,
+      "tottime_ms": 71.230454,
+      "cumtime_ms": 71.230454
+     },
+     {
+      "func": "~:0(<method 'strftime' of 'datetime.date' objects>)",
+      "calls": 21363,
+      "tottime_ms": 48.064522000000004,
+      "cumtime_ms": 48.064522000000004
+     },
+     {
+      "func": "services.py:131(_check)",
+      "calls": 10000,
+      "tottime_ms": 46.75291500000001,
+      "cumtime_ms": 316.421236
+     },
+     {
+      "func": "gen_data.py:28(measurement_rows)",
+      "calls": 11361,
+      "tottime_ms": 35.434779,
+      "cumtime_ms": 199.03325
+     }
+    ]
+   },
+   "peak_mb": 1.278883
+  },
+  "50000": {
+   "time": {
+    "min": 1646.7924749999838,
+    "median": 1646.7924749999838,
+    "runs": 1
+   },
+   "profile": {
+    "total_calls": 5033276,
+    "total_ms": 3713.9559950000016,
+    "top5": [
+     {
+      "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+      "calls": 50014,
+      "tottime_ms": 441.09704600000003,
+      "cumtime_ms": 441.09704600000003
+     },
+     {
+      "func": "_strptime.py:516(_strptime)",
+      "calls": 50015,
+      "tottime_ms": 400.04503700000004,
+      "cumtime_ms": 750.3530300000001
+     },
+     {
+      "func": "~:0(<method 'strftime' of 'datetime.date' objects>)",
+      "calls": 107010,
+      "tottime_ms": 244.601226,
+      "cumtime_ms": 244.601226
+     },
+     {
+      "func": "services.py:131(_check)",
+      "calls": 50000,
+      "tottime_ms": 241.77158200000002,
+      "cumtime_ms": 1637.1211630000003
+     },
+     {
+      "func": "gen_data.py:28(measurement_rows)",
+      "calls": 57000,
+      "tottime_ms": 184.92540300000002,
+      "cumtime_ms": 1023.2827060000001
+     }
+    ]
+   },
+   "peak_mb": 1.291937
+  }
+ }
+}
